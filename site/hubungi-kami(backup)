@@ -1,0 +1,217 @@
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Silahkan hubungi kami jika ada pertanyaan. Kami dengan senang hati menerima pertanyaan anda.">
+    <meta name="keywords" content="hubungi,beli,pesan,buku,persona">
+    <meta name="author" content="Persona Team">
+    <!--    Opengraph Meta-->
+    <meta property="og:url" content="https://www.persona.my.id/site/hubungi-kami" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Hubungi Kami | Persona" />
+    <meta property="og:description" content="Silahkan hubungi kami jika ada pertanyaan. Kami dengan senang hati menerima pertanyaan anda."
+    />
+    <meta property="og:image" content="https://www.persona.my.id/img/img-office-illustration.png" />
+    <title>Hubungi Kami</title>
+    <link rel="shortcut icon" href="../img/favicon.png" type="image/x-icon">
+    <!-- Bootstrap Core CSS -->
+    <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville|Open+Sans:300,400|Raleway:200,400" rel="stylesheet">
+    <!-- Plugin CSS -->
+    <link rel="stylesheet" href="../vendor/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../vendor/font/flaticon.css">
+    <!-- Theme CSS -->
+    <link href="../css/style.min.css" rel="stylesheet">
+    <!-- Facebook Pixel Code -->
+    <script>
+        ! function (f, b, e, v, n, t, s) {
+            if (f.fbq) return;
+            n = f.fbq = function () {
+                n.callMethod ? n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n;
+            n.push = n;
+            n.loaded = !0;
+            n.version = '2.0';
+            n.queue = [];
+            t = b.createElement(e);
+            t.async = !0;
+            t.src = v;
+            s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script', 'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '393975964325693', {
+            em: 'insert_email_variable,'
+        });
+        fbq('track', 'PageView');
+    </script>
+    <noscript>
+        <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=393975964325693&ev=PageView&noscript=1"
+        />
+    </noscript>
+    <!-- DO NOT MODIFY -->
+    <!-- End Facebook Pixel Code -->
+</head>
+
+<body>
+    <nav id="subNav" class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <i class="fa fa-bars" aria-hidden="true"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="https://www.persona.my.id/">
+                    <img src="../img/logo-persona.png" alt="PERSONA">
+                </a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="/">Home</a>
+                    </li>
+                    <li>
+                        <a href="pemesanan-buku">Pemesanan Buku</a>
+                    </li>
+                    <li>
+                        <a href="tentang-kami">Tentang Kami</a>
+                    </li>
+                    <li class="active">
+                        <a href="hubungi-kami#">Hubungi Kami</a>
+                    </li>
+                    <li>
+                        <a href="https://www.persona.my.id/blog/">Blog</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+    <div class="container">
+        <div class="hubungikami-container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="page-header">
+                        <h1>Hubungi Kami</h1>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <p class="lead">Silahkan hubungi kami jika ada pertanyaan. Kami dengan senang hati menerima pertanyaan anda.</p>
+                            <form id="contact-form" action="_contact.php" method="post" role="form">
+                                <div class="messages"></div>
+                                <div class="controls">
+                                    <div class="row">
+                                        <div class="col-sm-6">
+                                            <div class="form-group">
+                                                <label for="form_name">Nama depan *</label>
+                                                <input id="form_name" type="text" name="name" class="form-control" required="required" data-error="Nama depan wajib diisi">
+                                                <div class="help-block with-errors"></div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <div class="form-group">
+                                                <label for="form_lastname">Nama belakang *</label>
+                                                <input id="form_lastname" type="text" name="surname" class="form-control" required="required" data-error="Nama belakang wajib diisi">
+                                                <div class="help-block with-errors"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-6">
+                                            <div class="form-group">
+                                                <label for="form_email">Email *</label>
+                                                <input id="form_email" type="email" name="email" class="form-control" required="required" data-error="Alamat email anda tidak valid">
+                                                <div class="help-block with-errors"></div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <div class="form-group">
+                                                <label for="form_phone">No. telepon/handphone</label>
+                                                <input id="form_phone" type="tel" name="phone" class="form-control">
+                                                <div class="help-block with-errors"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+                                                <label for="form_message">Pesan *</label>
+                                                <textarea id="form_message" name="message" class="form-control" rows="4" required="required" data-error="Mohon tuliskan pesan"></textarea>
+                                                <div class="help-block with-errors"></div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <input type="submit" class="btn btn-outline btn-xl btn-send" value="Kirim Pesan"> </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <p class="text-muted" style="font-size:14px;">
+                                                <strong>*</strong> Wajib diisi.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <blockquote>
+                                        <p class="lead">Atau hubungi kami melalui</p>
+                                        <ul class="list-unstyled">
+                                            <li>
+                                                <p>
+                                                    <i class="flaticon-line" aria-hidden="true"></i> Line : @persona.id</p>
+                                            </li>
+                                            <li>
+                                                <p>
+                                                    <i class="fa fa-whatsapp" aria-hidden="true"></i> Whatsapp : 087889965337</p>
+                                            </li>
+                                            <li>
+                                                <p>
+                                                    <i class="fa fa-envelope-o" aria-hidden="true"></i> Email :
+                                                    <a href="mailto:mentor@persona.my.id" target="_top">mentor@persona.my.id</p>
+                                            </li>
+                                        </ul>
+                                    </blockquote>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-1"></div>
+                <div class="col-lg-5">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="page-header">
+                                <h1>Kunjungi Kami</h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.991551370151!2d112.71716231486683!3d-7.241798994772408!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7f93395dd5f17%3A0x4e81de33110dd508!2sPersona+Corporation!5e0!3m2!1sen!2sid!4v1486202442851"
+                                width="100%" height="400px" frameborder="0" style="border:0" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <a id="ddmenuLink" href="_footer.html"></a>
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="../vendor/jquery/jquery.min.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="../vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="../js/ddmenu.js" type="text/javascript"></script>
+    <script src="../js/new-age.min.js"></script>
+    <script src="../js/validator.min.js"></script>
+    <script src="../js/contact.js"></script>
+    <script src="../js/script.js"></script>
+</body>
+
+</html>

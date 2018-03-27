@@ -251,13 +251,11 @@ header {
   width: 100%;
   min-height: auto;
   overflow: hidden;
-  background: url("../img/bg-pattern.png"), #8e9eab;
+  background: #8e9eab;
   /* fallback for old browsers */
-  background: url("../img/bg-pattern.png"),
-    -webkit-linear-gradient(to left, #8e9eab, #eef2f3);
+  background: -webkit-linear-gradient(to left, #8e9eab, #eef2f3);
   /* Chrome 10-25, Safari 5.1-6 */
-  background: url("../img/bg-pattern.png"),
-    linear-gradient(to left, #8e9eab, #eef2f3);
+  background: linear-gradient(to top, #8e9eab, #eef2f3);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   color: #404040;
   background-attachment: fixed;
@@ -295,9 +293,19 @@ header .book-container {
   margin: 0 auto 100px;
 }
 
+header h1 {
+  font-weight: 400;
+}
+
 @media (min-width: 768px) {
   header {
     min-height: 100%;
+    background: #8e9eab;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #8e9eab, #eef2f3);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #8e9eab, #eef2f3);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   }
   header .header-content {
     text-align: left;
@@ -943,4 +951,15 @@ a > i.fa {
 }
 .hubungikami-container form .btn-send {
   margin: 20px 0;
+}
+.btn-bukalapak {
+  color: #fff;
+  background-color: #ED4C67;
+}
+.btn-bukalapak:hover,
+.btn-bukalapak:focus,
+.btn-bukalapak:active,
+.btn-bukalapak.active {
+  color: #fff;
+  background-color: #B53471;
 }
